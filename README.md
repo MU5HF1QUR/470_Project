@@ -1,5 +1,5 @@
-# MVC-Structure
-# Employee Managment System  
+# Employee Managment System
+# MVC-Structure  
 #### How to use
 
 1. Download XAMPP
