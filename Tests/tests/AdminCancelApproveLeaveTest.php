@@ -2,9 +2,9 @@
 
 use PHPUnit\Framework\TestCase;
 
-class AdminCancelApproveLeave extends TestCase {
+class AdminCancelApproveLeaveTest extends TestCase {
 
-    public function AdminCancelApproveLeave(): void
+    public function AdminCancelApproveLeaveTest(): void
     {
         $insertCancelLeave=[
             'id'=>'101',
