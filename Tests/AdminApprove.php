@@ -2,9 +2,9 @@
 
 use PHPUnit\Framework\TestCase;
 
-class EmployeLoginTest extends TestCase {
+class AdminApprove extends TestCase {
 
-    public function EmployeLogin(): void
+    public function AdminApprove(): void
     {
         $insertApprove=[
             'id'=>'101',

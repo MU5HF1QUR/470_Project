@@ -72,10 +72,12 @@ nav ul ul{
 	height: 5px;
 }
 
-.homeblack:hover{
-	background-color: blue;
-	padding: 30px 10px 21px 10px;
+.homeblack {
+	background-color: black;
+}
 
+.homeblack:hover{
+	background-color: red;
 }
 
 table {

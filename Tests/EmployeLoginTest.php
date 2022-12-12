@@ -7,8 +7,8 @@ class EmployeLoginTest extends TestCase {
     public function EmployeLogin(): void
     {
         $credentials=[
-            'email'=>'mushfiq@office.com',
-            'password'=>'admin'
+            'email'=>'mehadi@xyz.corp',
+            'password'=>'1234'
         ];
         $this->call('POST','login', $credentials);
         $this->assertResponseOk();

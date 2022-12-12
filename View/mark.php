@@ -2,12 +2,19 @@
 <?php
 
 require_once ('../Model/process/dbh.php');
+
 $id = (isset($_GET['id']) ? $_GET['id'] : '');
 $pid = (isset($_GET['pid']) ? $_GET['pid'] : '');
-$sql = "SELECT pid, project.eid, pname, duedate, subdate, mark, points, firstName, lastName, base, bonus, total FROM `project` , `rank` ,`employee`, `salary`  WHERE project.eid = $id AND pid = $pid";
 
-//echo "$sql";
-$result = mysqli_query($conn, $sql);
+if(isset($_GET['id'])) {
+  $sql = "SELECT pid, project.eid, pname, duedate, subdate, mark, points, firstName, lastName, base, bonus, total FROM `project` , `rank` ,`employee`, `salary`  WHERE project.eid=$id and `pid`=$pid";
+
+#echo "$sql";
+// die();
+  $result = mysqli_query($conn, $sql);
+}
+
+
 if(isset($_POST['update']))
 {
 

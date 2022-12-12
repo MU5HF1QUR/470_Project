@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class AdminCancelApproveLeaveTest extends TestCase {
+class AdminCancelApproveLeave extends TestCase {
 
     public function AdminCancelApproveLeave(): void
     {
